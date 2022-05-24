@@ -7,12 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'bytebank';
+  title = 'Gabebank';
   transferencias: any[] = [];
 
   constructor(private service: TransferenciaService) {}
 
-  transferir($event) {
-    this.service.adicionar($event).subscribe(x => console.log(x));
-  }
 }
