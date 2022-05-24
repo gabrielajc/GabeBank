@@ -1,7 +1,11 @@
 <header>
-  <a routerLink="extrato">Gabebank</a>
-  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova transferência</a>
+GabeBank
 </header>
 <main>
-  <router-outlet></router-outlet>
+  <app-nova-transferencia
+  (aoTransferir)="transferir($event)"
+></app-nova-transferencia>
+
+<app-extrato></app-extrato>
+
 </main>
