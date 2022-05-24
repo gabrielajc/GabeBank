@@ -15,6 +15,7 @@ export class ExtratoComponent implements OnInit {
   ngOnInit(): void {
     this.transferencias = this.service.transferencias;
   }
+
     // this.transferenciaService.todas().subscribe((transferencias: Transferencia[]) => {
     //   console.table(transferencias);
     //   this.transferencias = transferencias;
