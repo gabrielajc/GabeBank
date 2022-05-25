@@ -1,7 +1,9 @@
 .titulo {
+  margin-top: 50px;
   text-align: center;
   font-size: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 26px;
+  color: var(--primary);
 }
 
 .tabela {
@@ -9,13 +11,14 @@
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
 
   &__cabecalho {
     color: var(--primary);
 
     &__conteudo {
       padding: 10px;
-      border-bottom: 2px solid green;
+      border-bottom: 2px solid var(--secondary);
     }
   }
 
@@ -33,6 +36,15 @@
   &__conteudo {
     padding: 10px;
     border-bottom: 1px solid var(--cinza-claro);
+  }
+
+  .listavazia{
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+    position: relative;
+    top: 30px;
+    left: 60px;
   }
 
 

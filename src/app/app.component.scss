@@ -4,6 +4,21 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.17);
+
+  nav li {
+    display: inline;
+    margin: 0 0 0 140px;
+  }
+
+  .title{
+    font-size: larger;
+    font-weight: 900;
+    display: inline;
+    margin-left: 10px;
+    -webkit-text-stroke: 1px rgb(146, 110, 11);
+    font-family: arial; color: rgb(255, 255, 255);
+  }
 
   a {
     color: inherit;
@@ -16,6 +31,16 @@ header {
 }
 
 main {
-  background-color: #fcfcfc;
   padding: var(--padding);
+}
+
+.front{
+  box-shadow: 0 0 1em black;
+  width: 500px;
+  margin-left: 60%;
+  min-height: 90vh;
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 2%;
+  background-color: #fcfcfc;
 }

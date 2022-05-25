@@ -1,15 +1,17 @@
 <section class="container">
+  <h2 style=" padding-bottom: 10px; text-align: center;font-size: 24px;margin-bottom: 16px;color: var(--primary);">Transferir</h2>
   <form class="formulario" (ngSubmit)="transferir()">
-    <h2 class="formulario__titulo">Nova Transferência</h2>
+    <h2 class="formulario__titulo">Faça uma nova Transferência</h2>
 
     <div class="form-field">
-      <label class="form-field__label" for="valor">Valor</label>
+      <label class="form-field__label" for="valor" >Valor</label>
       <input
         class="form-field__input"
         id="valor"
         type="number"
         name="valor"
         [(ngModel)]="valor"
+        placeholder="Digite um valor"
 
       />
     </div>
@@ -22,7 +24,8 @@
         type="text"
         name="destino"
         [(ngModel)]="destino"
-        
+        placeholder="Digite o destino"
+
       />
     </div>
     <div class="botao-wrapper">

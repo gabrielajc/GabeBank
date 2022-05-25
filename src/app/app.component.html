@@ -1,7 +1,19 @@
 <header>
-GabeBank
+  <nav>
+   <ul>
+    <p class="title">GABEBANK</p>
+    <li style="font-weight: 700;">Transferir</li>
+    <li style="color:rgb(195, 195, 218)">Extrato</li>
+    <li style="color:rgb(195, 195, 218)">Sobre nós</li>
+    <li style="color:rgb(195, 195, 218)">Parceiros</li>
+
+  </ul>
+  </nav>
+
+
 </header>
-<main>
+<div class="front">
+  <main>
   <app-nova-transferencia
   (aoTransferir)="transferir($event)"
 ></app-nova-transferencia>
@@ -9,3 +21,5 @@ GabeBank
 <app-extrato></app-extrato>
 
 </main>
+
+</div>

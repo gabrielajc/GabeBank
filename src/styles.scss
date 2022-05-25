@@ -1,8 +1,8 @@
 :root {
-  --primary: #369c38;
-  --secondary: #132A13;
+  --primary: #0c64d8;
+  --secondary: #214ad1;
   --padding: 15px;
-  --cinza : #405040;
+  --cinza : #404750;
   --cinza-claro: #dedede;
 }
 
@@ -21,7 +21,14 @@ a{
 }
 
 .container {
-  max-width: 400px;
-  padding: 30px;
+  max-width: 350px;
   margin: 0 auto;
+}
+
+body{
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLWFMhfj9XU5iffz27kfVzcWt9Mk-wwpLQhgR1aSOeL7VzPuhy7qfzMq4XbkNX9MXG_AhuiNLXrVDUdTAaJIYl3NfChgRO4E878OsVyQ8U1Jm84eRz3hId9tcWYiszGVhm0rCmfOcHPgElFoEFtAFkkodA=w1920-h960-no?authuser=0');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
 }
